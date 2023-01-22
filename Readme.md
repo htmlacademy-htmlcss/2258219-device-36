@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Arina Sorokina](https://up.htmlacademy.ru/htmlcss/36/user/2258219).
-* Наставник: `Егор Глебов`(https://htmlacademy.ru/profile/beast).
+* Наставник: [Егор Глебов](https://htmlacademy.ru/profile/beast).
 
 ---
 
