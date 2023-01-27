@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс Каталог</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="page-header">
+      <img src="" alt="лого сайта Device">
+      <form class="page-header-search" action="https://echo.htmlacademy.ru/" method="post">
+            <label><!--::before -->
+              <input type="search" placeholder="Текст поиска">
+              найти
+            </label>
+
+      <ul class="header-list">
+        <li class="header-list-button">
+          <button type="button">Войти</button><!--После входа сменяется на имя пользователя-->
+        </li>
+
+        <li class="header-list-button">
+          <button type="button">Сравнить</button>
+        </li>
+        <li class="header-list-button">
+          <span class="buscket-count">2</span>
+          <button type="button">Корзина</button>
+        </li>
+
+        <!--<li class="header-list-button">
+          <button type="button">Выйти</button>
+        </li>--><!--Должно появляться после входа-->
+      </ul>
+
+      <h2>Каталог товаров</h2><button class="header-button-catalog visually-hidden" type="button" >Больше</button> <!--checkbox-->
+      <ul class="header-popup-catalog">
+        <li class="header-popup-catalog-li">
+          <a href="#">Виртуальная реальность</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Моноподы для селфи</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Экшн-камеры</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Фитнес-браслеты</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Умные часы</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Квадрокоптеры</a>
+        </li>
+      </ul>
+
+      <nav class="header-navigation">
+        <ul class="header-navigation-list">
+          <li class="header-navigation-li">
+            <a href="#">Доставка</a> <!--anchors?-->
+          </li>
+          <li class="header-navigation-li">
+            <a href="#">Гарантия</a>
+          </li>
+          <li class="header-navigation-li">
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--MAIN-INNER-->
+    <main class="main-inner">
+
+      <header class="inner-header">
+        <h1 class="inner-header-title">Моноподы для селфи</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="#">Каталог товаров</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Моноподы для селфи</a>
+          </li>
+        </ul>
+      </header>
+
+      <aside class="catalog-filter">
+      <fieldset>
+        <h2>фильтр</h2>
+        <hr>
+        <label>Стоимость
+          <input type="range">
+        </label>
+        <hr>
+        <label>Цвет
+          <input type="checkbox" name="color-black" value="Черный" checked>
+          <input type="checkbox" name="color-white" value="Белый" checked>
+          <input type="checkbox" name="color-blue" value="Синий">
+          <input type="checkbox" name="color-red" value="Красный">
+          <input type="checkbox" name="color-pink" value="Розовый">
+        </label>
+        <hr>
+        <label>Bluetooth
+          <input type="radio" name="bluetooth-option" value="yes" checked>
+          <input type="radio" name="bluetooth-option" value="no">
+        </label>
+
+        <button type="button">Показать</button>
+      </fieldset>
+      </aside>
+    </main>
+
+
+    <!--FOOTER-->
+    <footer class="page-footer">
+      <h2 class="visually-hidden">Подвал сайта</h2>
+      <img src="" alt="лого сайта">
+      <address class="footer-address">Санкт-Петербург, набережная
+        реки Карповки, 5, литера П.</address>
+
+      <ul class="footer-navigation-list">
+        <li class="footer-navigation-li">
+          <a href="#">Доставка</a> <!--anchors?-->
+        </li>
+        <li class="footer-navigation-li">
+          <a href="#">Гарантия</a>
+        </li>
+        <li class="footer-navigation-li">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+      <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <span></span>
+
+      <span></span>
+
+      <ul class="footer-socials-list">
+        <li><a href=""><img src="" alt="теллеграм"></a></li>
+        <li><a href=""><img src="" alt="ютуб"></a></li>
+        <li><a href=""><img src="" alt="твиттер"></a></li>
+      </ul>
+
+      <a href=""><img src="" alt="html-academy сделала этот сайт"></a>
+    </footer>
+
+  <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+
+  </body>
