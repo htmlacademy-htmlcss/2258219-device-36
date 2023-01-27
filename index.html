@@ -14,9 +14,14 @@
               найти
             </label>
 
+
       <a class="header-button" href="#" >Войти</a>
 
       <ul class="header-list">
+        <li class="header-list-button">
+          <button type="button">Войти</button><!--После входа сменяется на имя пользователя-->
+        </li>
+
         <li class="header-list-button">
           <button type="button">Сравнить</button>
         </li>
@@ -24,9 +29,38 @@
           <span class="buscket-count">2</span>
           <button type="button">Корзина</button>
         </li>
+
+        <!--<li class="header-list-button">
+          <button type="button">Выйти</button>
+        </li>--><!--Должно появляться после входа-->
       </ul>
 
-      <h2>Каталог товаров</h2><button class="header-button-catalog" type="button" >Больше</button>
+      <h2>Каталог товаров</h2><button class="header-button-catalog visually-hidden" type="button" >Больше</button> <!--checkbox-->
+      <ul class="header-popup-catalog">
+        <li class="header-popup-catalog-li">
+          <a href="#">Виртуальная реальность</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Моноподы для селфи</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Экшн-камеры</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Фитнес-браслеты</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Умные часы</a>
+        </li>
+
+        <li class="header-popup-catalog-li">
+          <a href="#">Квадрокоптеры</a>
+        </li>
+      </ul>
 
       <nav class="header-navigation">
         <ul class="header-navigation-list">
