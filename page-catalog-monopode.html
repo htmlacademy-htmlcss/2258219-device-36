@@ -62,7 +62,7 @@
       <nav class="header-navigation">
         <ul class="header-navigation-list">
           <li class="header-navigation-li">
-            <a href="#">Доставка</a> <!--anchors?-->
+            <a href="#">Доставка</a>
           </li>
           <li class="header-navigation-li">
             <a href="#">Гарантия</a>
@@ -93,28 +93,78 @@
       </header>
 
       <aside class="catalog-filter">
-      <fieldset>
         <h2>фильтр</h2>
         <hr>
-        <label>Стоимость
-          <input type="range">
-        </label>
-        <hr>
-        <label>Цвет
-          <input type="checkbox" name="color-black" value="Черный" checked>
-          <input type="checkbox" name="color-white" value="Белый" checked>
-          <input type="checkbox" name="color-blue" value="Синий">
-          <input type="checkbox" name="color-red" value="Красный">
-          <input type="checkbox" name="color-pink" value="Розовый">
-        </label>
-        <hr>
-        <label>Bluetooth
-          <input type="radio" name="bluetooth-option" value="yes" checked>
-          <input type="radio" name="bluetooth-option" value="no">
-        </label>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
-        <button type="button">Показать</button>
-      </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Стоимость</legend>
+            <label class="control">
+              <input type="range">
+            </label>
+
+          <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Цвет</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input type="checkbox" name="color-black" value="Черный" checked>
+                  Черный
+                </label>
+              </li>
+
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input type="checkbox" name="color-white" value="Белый" checked>
+                  Белый
+                </label>
+              </li>
+
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input type="checkbox" name="color-blue" value="Синий">
+                  Синий
+                </label>
+              </li>
+
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input type="checkbox" name="color-red" value="Красный">
+                  Красный
+                </label>
+              </li>
+
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input type="checkbox" name="color-pink" value="Розовый">
+                  Розовый
+                </label>
+              </li>
+            </ul>
+            </fieldset>
+
+           <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Bluetooth
+              <ul>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input type="radio" name="bluetooth-option" value="yes" checked>
+                    Есть
+                  </label>
+                </li>
+
+                <li class="catalog-filter-item">
+                  <label>
+                    <input type="radio" name="bluetooth-option" value="no">
+                    Нет
+                  </label class="control">
+                </li>
+            </legend>
+
+
+            <button class="button" type="submit">Показать</button>
+          </fieldset>
+        </form>
       </aside>
 
       <section class="catalog">
@@ -204,7 +254,7 @@
 
       <ul class="footer-navigation-list">
         <li class="footer-navigation-li">
-          <a href="#">Доставка</a> <!--anchors?-->
+          <a href="#">Доставка</a>
         </li>
         <li class="footer-navigation-li">
           <a href="#">Гарантия</a>
