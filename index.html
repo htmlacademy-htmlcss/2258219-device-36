@@ -13,6 +13,7 @@
               <input type="search" placeholder="Поиск по сайту">
               найти
             </label>
+      </form>
 
       <ul class="header-list">
         <li class="header-list-button">
@@ -62,7 +63,7 @@
       <nav class="header-navigation">
         <ul class="header-navigation-list">
           <li class="header-navigation-li">
-            <a href="#">Доставка</a> <!--anchors?-->
+            <a href="#">Доставка</a>
           </li>
           <li class="header-navigation-li">
             <a href="#">Гарантия</a>
@@ -152,7 +153,9 @@
             </dl>
           </li>
         </ol>
-        <!--<button class="slider-item-change" type="radio"></button>-->
+        <!--<button class="slider-item-change" type="radio"></button>? Как кнопкой выбрать то,
+        что хочется посмотреть? С помощью css настройкой как попапа или меню-гамбургера? Немного
+        в замешательстве-->
       </section>
 
       <!--MAIN PAGE CATALOG SECTION-->
@@ -168,35 +171,35 @@
           </li>
 
           <li class="catalog-list-item">
-            <a href="page-catalog-monopode.html">
+            <a class="catalog-list-link" href="page-catalog-monopode.html">
               <img src="" alt="Селфи-палка">
               <h3>Моноподы для селфи</h3>
             </a>
           </li>
 
           <li class="catalog-list-item">
-            <a href="#">
+            <a class="catalog-list-link" href="#">
               <img src="" alt="Камера">
               <h3>Экшн-камеры</h3>
             </a>
           </li>
 
           <li class="catalog-list-item">
-            <a href="#">
+            <a class="catalog-list-link" href="#">
               <img src="" alt="Фитнес-браслет">
               <h3>Фитнес-браслеты</h3>
             </a>
           </li>
 
           <li class="catalog-list-item">
-            <a href="#">
+            <a class="catalog-list-link" href="#">
               <img src="" alt="Умные часы">
               <h3>Умные часы</h3>
             </a>
           </li>
 
           <li class="catalog-list-item">
-          <a href="#">
+          <a class="catalog-list-link" href="#">
             <img src="" alt="Квадрокоптер">
             <h3>Квадрокоптеры</h3>
           </a>
@@ -209,7 +212,9 @@
         <h2 class="visually-hidden">Что вам нужно знать перед оформлением заказа</h2>
 
         <div class="order-information-list">
-        <!--<button name="order-information-radio" type="radio"></button>-->
+        <!--<button name="order-information-radio" type="radio"></button>Как кнопкой выбрать то,
+        что хочется посмотреть? С помощью css настройкой как попапа или меню-гамбургера? Немного
+        в замешательстве-->
           <ol>
             <li>
               <h3>Доставка</h3>
@@ -240,6 +245,7 @@
         <div class="order-delivery-option">
           <b>Доставим редкий товар под заказ</b>
           <button class="tooltip-button-information" type="button">Уточнение</button>
+        </div>
       </section>
 
       <!--SITE INFORMATION SECTION-->
@@ -272,8 +278,8 @@
           </address>
 
           <ul class="contact-worktime-list">
-            <li>пн—пт: с 10:00 до 22:00</li>
-            <li>сб—вс: с 10:00 до 19:00</li>
+            <li class="contact-worktime-li">пн—пт: с 10:00 до 22:00</li>
+            <li class="contact-worktime-li">сб—вс: с 10:00 до 19:00</li>
           </ul>
           <a href="#"><span><b>Напишите нам</b></span></a>
         </div>
@@ -287,11 +293,11 @@
           длительными тест-драйвами, распаковками, а также акции,
           спецпредложения и вот это вот всё.</p>
 
-          <form class="mail-send-form" id="sended-mail" method="get" action="https://echo.htmlacademy.ru/courses">
-            <label>
-              <input type="email" name="email" placeholder="Ваш e-mail">
+        <form class="mail-send-form" id="sended-mail" method="get" action="https://echo.htmlacademy.ru/courses">
+          <label>
+            <input type="email" name="email" placeholder="Ваш e-mail">
               Подписаться
-            </label>
+          </label>
         </form>
 
         <span>Это бесплатно</span>
@@ -308,7 +314,7 @@
 
         <ul class="footer-navigation-list">
           <li class="footer-navigation-li">
-            <a href="#">Доставка</a> <!--anchors?-->
+            <a href="#">Доставка</a>
           </li>
           <li class="footer-navigation-li">
             <a href="#">Гарантия</a>
