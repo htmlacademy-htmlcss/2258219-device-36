@@ -13,6 +13,7 @@
               <input type="search" placeholder="Текст поиска">
               найти
             </label>
+      </form>
 
       <ul class="header-list">
         <li class="header-list-button">
@@ -102,6 +103,7 @@
             <label class="control">
               <input type="range">
             </label>
+          </fieldset>
 
           <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Цвет</legend>
@@ -141,11 +143,11 @@
                 </label>
               </li>
             </ul>
-            </fieldset>
+          </fieldset>
 
            <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Bluetooth
-              <ul>
+            <legend class="catalog-filter-title">Bluetooth</legend>
+              <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
                     <input type="radio" name="bluetooth-option" value="yes" checked>
@@ -154,16 +156,15 @@
                 </li>
 
                 <li class="catalog-filter-item">
-                  <label>
+                  <label class="control">
                     <input type="radio" name="bluetooth-option" value="no">
                     Нет
-                  </label class="control">
+                  </label>
                 </li>
-            </legend>
+              </ul>
 
-
-            <button class="button" type="submit">Показать</button>
           </fieldset>
+          <button class="button" type="submit">Показать</button>
         </form>
       </aside>
 
@@ -171,7 +172,7 @@
         <header class="catalog-header">
         <h2>сортировка:</h2>
         <select name="sorting">
-          <option value="popular" selected></option>
+          <option value="popular" selected>популярное</option>
           <option value="descending">цена по убыванию</option>
           <option value="ascending">цена по возрастанию</option>
           <option value="rating">по рейтингу</option>
